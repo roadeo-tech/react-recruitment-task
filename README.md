@@ -6,7 +6,7 @@
 Your job is to code an app with posts of users with ability to manage posts and comments. Application must be SPA and use multiple routes (listed below). 
 
 ## Tech stack:
-* API: [API DOCS](https://graphqlzero.almansi.me/api) 
+* API: [API DOCS](https://react-recruitment.musbenlahrech.repl.co/) 
 * GQL: [client](https://www.apollographql.com/docs/react/get-started/)
 * Starter: [Create react app starter](https://github.com/facebook/create-react-app) - TS template
 * Routing: [React-router](https://github.com/ReactTraining/react-router)
