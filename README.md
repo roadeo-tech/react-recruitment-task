@@ -1,4 +1,4 @@
-[![pagepro_logo](https://raw.githubusercontent.com/Pagepro/frontend-recruitment-task-landing-page/master/logo.svg?sanitize=true)](https://pagepro.co/)
+[![roadeo_logo](https://static.wixstatic.com/media/c1617f_40d55a595dfc47e092ac4adf9d91b6f5~mv2.png/v1/fill/w_287,h_76,al_c,q_85,usm_0.66_1.00_0.01/RoadEO.webp)](https://www.roadeo.io)
 
 # React Developer Recruitment Task 
 
