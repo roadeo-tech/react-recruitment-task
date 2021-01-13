@@ -10,54 +10,42 @@ Your job is to code an app with posts of users with ability to manage posts and 
 * GQL: [client](https://www.apollographql.com/docs/react/get-started/)
 * Starter: [Create react app starter](https://github.com/facebook/create-react-app) - TS template
 * Routing: [React-router](https://github.com/ReactTraining/react-router)
-* Typescript: [DOCS](https://www.typescriptlang.org/docs/handbook/intro.html)
 
 ## Screens:
+* `Login` 
+    ![Login](img/Login.png)
+    * A simple login page with a simple form. 
+    * On submit click you will redirect to `Homepage` page
 * `Homepage` 
     ![Homepage](img/HomePage.png)
-    * List of users. 
-    * For each user you must display his details (you can omit the address). 
-    * On user click you will redirect to `User Details` page
-* `User Details`
-    ![User Details](img/UserDetails.png)
-    * This page contains the user name at the top of the page.
-    * List of user posts (just titles trimmed to one line).
-    * On click on the post item you will redirect to `Post Details` page
-    * Button that on click will open the  `Add post modal`. 
-    * Back button that will go back to `Homepage`
-* `Post Details`
-    ![User Details](img/PostDetails.png)
-    ![User Details comments](img/PostDetailsComments.png)
-    * On top of the page you still have the username
-    * Post full details 
-    * Button to remove post. 
-    * On remove you will have to go back to `User Details` page and remove current post from the list and API.
-    * Button/link for comments 'show/hide comments' that will toggle the comments list visibility.
-    * Button to add comment.
-    * Adding comments should be similar to `Add Post Modal` but contain different fields and action.
-    * Back button that will go back to `Posts list
-*  `Add Post/Comment Modal`
-    ![Add Post Modal](img/AddPostModal.png)
-    ![Add Comment Modal](img/AddCommentModal.png)
-    *   Title
-    *   Form fields
-    *   Two buttons `Cancel`, `Save`
-    *   Cancel will just close the modal and ignore changes
-    *   Save will connect with API and add Comment/Post to the list
-
+    * General Dashboard
+    * 2 Kpis ( with graphs )(you will find in the Docs of the GQL server)
+    * a list of notification
+    * a user card (my account)
+    * On notification click you will redirect to `Notification` page
+* `Notification`
+    ![Notification Details](img/Notifications.png)
+    * This page contains the details of the notification.
+    * 3 Kpis (you will find in the Docs of the GQL server)
+    * list of measurements
+    * 2 Pictures (also in the GQL)
+    * (ignore the two graps in the picture on the write side of the map)
+## Optional Screen:
+* `Profile Setting` 
+    * Just create a form for the user details (just query the data from the server but no posting to the server)
 ## Must-have:
-1. React + Typescript
+1. React 
 2. Connection with API (GQL)
 3. Usage of react-router for multiple pages
 4. Loaders when you wait for the data (react-skeleton)
-5. Validation on forms
-6. Usage of modern js functionality (ES6+)
+5. Usage of modern js functionality (ES6+)
 
 ## Good to have:
 1. Clean code (linters, prettier)
 2. UI kit for styles (or styled-components)
 3. Tests
 4. App deployed to [Netlify](https://www.netlify.com/)
+5. Validation on forms
 
 ## What will we be paying attention to:
 1. How you split code for components
@@ -65,7 +53,6 @@ Your job is to code an app with posts of users with ability to manage posts and 
 3. Reusability of the components.
 4. Code repetitions and reusability (keep your code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) and simple [KISS](https://en.wikipedia.org/wiki/KISS_principle)).
 5. How and where you put your business logic.
-6. Code optimization and the solution&#39;s performance.
-7. Working in accordance with good practices in general.
-8. How you communicate with API.
-9. Handling unexpected errors or potential exceptions.
+6. Working in accordance with good practices in general.
+7. How you communicate with API.
+8. Handling unexpected errors or potential exceptions.
