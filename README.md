@@ -12,6 +12,9 @@ Your job is to code an app with posts of users with ability to manage posts and 
 * Routing: [React-router](https://github.com/ReactTraining/react-router)
 
 ## Screens:
+
+You can use your own design theme (it is better if you can show your design taste :) ) 
+
 * `Login` 
     ![Login](img/Login.png)
     * A simple login page with a simple form. 
