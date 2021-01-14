@@ -49,6 +49,7 @@ You can use your own design theme (it is better if you can show your design tast
 3. Tests
 4. App deployed to [Netlify](https://www.netlify.com/)
 5. Validation on forms
+6. Use of [LeafletJS](https://react-leaflet.js.org) for the map  
 
 ## What will we be paying attention to:
 1. How you split code for components
